@@ -65,6 +65,10 @@ body {
     color: #283337;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
+
 .title {
     font-family: 'Inter';
     font-weight: 700;
@@ -244,9 +248,10 @@ body {
     color: #40494D;
 }
 
-.product__text span {
+.product__text a {
     font-weight: 700;
     text-decoration: underline;
+    color: inherit;
 }
 
 .product__card {
@@ -397,7 +402,7 @@ body {
 
 .adventages__video {
     position: relative;
-    width: 100%;
+
     /*overflow: hidden;*/
 }
 
